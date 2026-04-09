@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "category": "Engine",
+    "question": "My car engine is making a knocking sound when I accelerate. What could be the problem?",
+    "answer": "Engine knocking during acceleration is commonly caused by low-quality fuel, carbon buildup in the combustion chamber, worn rod bearings, or incorrect ignition timing. Start by switching to higher octane fuel. If the knocking persists, have a mechanic check the spark plugs and ignition timing. Worn rod bearings are more serious and may require engine repair."
+  },
+  {
+    "id": 2,
+    "category": "Engine",
+    "question": "What does it mean when my check engine light is flashing?",
+    "answer": "A flashing check engine light indicates a severe engine misfire that could damage the catalytic converter. You should reduce speed immediately, avoid hard acceleration, and get to a mechanic as soon as possible. Do not ignore a flashing check engine light as continued driving can cause expensive catalytic converter damage. A steady check engine light is less urgent but should still be diagnosed soon."
+  },
+  {
+    "id": 3,
+    "category": "Brakes",
+    "question": "My car makes a grinding noise when I brake. What is wrong?",
+    "answer": "Grinding noise during braking indicates the brake pads are completely worn down and the metal backing plate is grinding against the brake rotor. This is dangerous and causes rotor damage. You need to replace the brake pads immediately and have the rotors inspected. If the rotors have deep grooves or are below minimum thickness, they need to be replaced too. Driving with grinding brakes significantly increases stopping distance."
+  },
+  {
+    "id": 4,
+    "category": "Brakes",
+    "question": "Why does my brake pedal feel spongy or soft?",
+    "answer": "A spongy brake pedal is usually caused by air in the brake lines, low brake fluid, a failing master cylinder, or a brake fluid leak. Air in the lines compresses unlike brake fluid, creating the soft feeling. The fix is to bleed the brake system to remove air bubbles. Check the brake fluid reservoir level and inspect all brake lines and calipers for leaks. If the master cylinder is failing, the pedal may slowly sink to the floor when held."
+  },
+  {
+    "id": 5,
+    "category": "Transmission",
+    "question": "Why does my automatic transmission jerk when shifting gears?",
+    "answer": "Jerky shifting in an automatic transmission is commonly caused by low or dirty transmission fluid, worn clutch packs, a failing torque converter, or a malfunctioning shift solenoid. Start by checking the transmission fluid level and condition. Dark or burnt-smelling fluid needs to be changed. If fluid is fine, a transmission diagnostic scan can identify solenoid or sensor issues. Ignoring harsh shifts can lead to complete transmission failure."
+  },
+  {
+    "id": 6,
+    "category": "Transmission",
+    "question": "What does it mean when my transmission slips?",
+    "answer": "Transmission slipping means the engine revs up but the car does not accelerate proportionally. You may feel a delay in acceleration or the RPM climbing without corresponding speed increase. This is caused by worn clutch plates, low transmission fluid, a worn transmission band, or a failing torque converter. Check fluid level and condition first. If fluid is adequate and clean, internal transmission wear is likely and professional diagnosis is needed."
+  },
+  {
+    "id": 7,
+    "category": "Electrical",
+    "question": "Why won't my car start even though the battery is new?",
+    "answer": "A new battery that won't start the car points to a bad starter motor, corroded battery terminals, a faulty ignition switch, a broken starter relay, or a parasitic drain that killed the new battery overnight. Check that battery terminals are clean and tight. Test the starter by tapping it lightly while someone turns the key — if it starts, the starter is failing. A clicking sound with no cranking usually indicates a starter problem."
+  },
+  {
+    "id": 8,
+    "category": "Electrical",
+    "question": "How do I know if my alternator is failing?",
+    "answer": "Signs of a failing alternator include dimming headlights while driving, a dead battery that keeps dying after charging, a battery warning light on the dashboard, whining or grinding noise from the alternator, and electrical accessories like windows and radio working slowly. Test the alternator with a multimeter at the battery terminals while the engine is running. You should read between 13.5 to 14.5 volts. Below 13 volts means the alternator is not charging properly."
+  },
+  {
+    "id": 9,
+    "category": "Cooling",
+    "question": "Why is my car overheating in traffic but fine on the highway?",
+    "answer": "Overheating only in traffic points to a radiator fan problem. On the highway, air flows through the radiator naturally. In traffic, the electric radiator fan must turn on to pull air through. A failed fan motor, blown fan fuse, faulty fan relay, or broken coolant temperature sensor that triggers the fan can cause this. Turn on the AC and see if the fan runs since many cars activate the fan with AC. If the fan runs with AC, the temperature sensor or relay is likely faulty."
+  },
+  {
+    "id": 10,
+    "category": "Cooling",
+    "question": "What are the signs of a failing water pump?",
+    "answer": "Signs of a failing water pump include coolant leaking from the front center of the car, a whining or grinding noise from the pump pulley area, engine overheating, steam coming from the radiator, and a wobbling pump pulley. Many water pumps leak from a small weep hole on the bottom when the internal seal fails. A wobbling pulley indicates a worn bearing. Water pumps are often replaced along with the timing belt since they share the same location."
+  },
+  {
+    "id": 11,
+    "category": "Tires",
+    "question": "Why does my car vibrate at highway speeds?",
+    "answer": "Vibration at highway speeds is most commonly caused by unbalanced tires, a bent wheel, uneven tire wear, a separated tire belt, or worn suspension components. Vibration felt in the steering wheel usually indicates a front tire or wheel problem. Vibration felt in the seat points to a rear tire issue. Start with a tire balance and inspection. If vibration persists after balancing, check for bent wheels and tire belt separation by inspecting for bulges."
+  },
+  {
+    "id": 12,
+    "category": "Tires",
+    "question": "What causes uneven tire wear?",
+    "answer": "Uneven tire wear is caused by improper tire pressure, misaligned wheels, worn suspension components, or not rotating tires regularly. Wear on both edges indicates underinflation. Wear in the center indicates overinflation. Wear on one edge indicates alignment issues. Patchy or cupped wear indicates worn shocks or struts. Regular tire rotations every 5,000 to 8,000 miles and maintaining correct tire pressure prevents most uneven wear patterns."
+  },
+  {
+    "id": 13,
+    "category": "Oil",
+    "question": "What happens if I don't change my oil on time?",
+    "answer": "Skipping oil changes leads to oil breakdown, sludge formation, increased friction, accelerated engine wear, and eventually engine failure. Old oil loses its lubricating and cooling properties. Sludge clogs oil passages, starving components of lubrication. The camshaft, crankshaft bearings, and piston rings wear out prematurely. Most manufacturers recommend oil changes every 5,000 to 7,500 miles for synthetic oil and 3,000 to 5,000 miles for conventional oil."
+  },
+  {
+    "id": 14,
+    "category": "Oil",
+    "question": "What does the oil pressure warning light mean?",
+    "answer": "The oil pressure warning light means oil pressure has dropped to a dangerously low level. This is one of the most serious dashboard warnings. Pull over and turn off the engine immediately. Low oil pressure means engine components are not being lubricated and can seize within minutes. Causes include low oil level, a failing oil pump, a clogged oil filter, or oil that is too thin. Check the oil level first. If it is full, do not drive the car and have it towed to a mechanic."
+  },
+  {
+    "id": 15,
+    "category": "Body",
+    "question": "How do I fix small scratches on my car's paint?",
+    "answer": "For light surface scratches that have not penetrated the clear coat, use a rubbing compound or scratch removal polish applied with a microfiber cloth in circular motions. For deeper scratches through the paint, clean the area, apply matching touch-up paint with a fine brush, let it dry, then wet sand with 2000-grit sandpaper and polish. For scratches through to bare metal, apply primer first, then base coat, clear coat, and polish. Deep scratches may require professional respray for best results."
+  },
+  {
+    "id": 16,
+    "category": "Body",
+    "question": "What causes rust on a car and how can I prevent it?",
+    "answer": "Rust forms when bare metal is exposed to moisture and oxygen. Road salt, stone chips, scratches, and drainage holes that get clogged accelerate rust formation. Prevent rust by washing your car regularly especially in winter, waxing every few months, repairing paint chips promptly with touch-up paint, keeping drainage holes clear, and applying rust inhibitor spray to the undercarriage. Treat small rust spots immediately by sanding to bare metal, applying rust converter, primer, and paint."
+  },
+  {
+    "id": 17,
+    "category": "Suspension",
+    "question": "Why does my car bounce excessively over bumps?",
+    "answer": "Excessive bouncing indicates worn shock absorbers or struts that are no longer dampening the spring movement. Good shocks should stop the bounce within one or two oscillations. The bounce test is simple: push down hard on each corner of the car and release. If the car bounces more than twice, the shocks or struts need replacement. Worn shocks also cause longer stopping distances, increased tire wear, and poor handling. Replace in pairs on the same axle."
+  },
+  {
+    "id": 18,
+    "category": "Suspension",
+    "question": "What causes a clunking noise when driving over bumps?",
+    "answer": "Clunking over bumps is typically caused by worn sway bar links, worn ball joints, worn control arm bushings, a loose strut mount, or worn tie rod ends. These components have rubber bushings or ball sockets that wear out and develop play, causing metal-to-metal contact over bumps. Jack up the car and grab the wheel at 12 and 6 o'clock and 3 and 9 o'clock positions, rocking it to feel for play. A clunk while rocking indicates worn ball joints or tie rods."
+  },
+  {
+    "id": 19,
+    "category": "Exhaust",
+    "question": "What does the catalytic converter do and why is it expensive?",
+    "answer": "The catalytic converter converts harmful exhaust gases including carbon monoxide, hydrocarbons, and nitrogen oxides into less harmful carbon dioxide, water, and nitrogen. It is expensive because it contains precious metals including platinum, palladium, and rhodium that act as catalysts for the chemical reactions. A replacement catalytic converter costs between 500 and 2500 dollars depending on the vehicle. Catalytic converter theft is common because of the precious metal value inside."
+  },
+  {
+    "id": 20,
+    "category": "Exhaust",
+    "question": "What are the symptoms of a clogged catalytic converter?",
+    "answer": "A clogged catalytic converter causes reduced engine power, poor acceleration, decreased fuel economy, difficulty starting, a sulfur smell, dark exhaust smoke, and excessive heat under the vehicle. The engine may also stall or misfire because exhaust gases cannot exit efficiently, creating back pressure. Test by checking exhaust back pressure with a gauge or using an infrared thermometer to compare inlet and outlet temperatures. The outlet should be hotter than the inlet if the converter is working."
+  }
+]

@@ -1,0 +1,23 @@
+# API Keys
+.env
+*.key
+
+# Model files (too large for GitHub)
+*.bin
+*.safetensors
+*.gguf
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kaggle
+/kaggle/
+
+__pycache__/
+data/baseline_answers.json

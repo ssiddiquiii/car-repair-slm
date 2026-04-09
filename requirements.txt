@@ -1,0 +1,6 @@
+python-dotenv
+torch
+transformers
+huggingface_hub
+deepeval
+google-genai
