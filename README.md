@@ -21,19 +21,23 @@ Fine-tuning **Gemma 4 E2B** (Google DeepMind) on car repair Q&A data for offline
 
 ## Folder Structure
 
-```
+
+```text
 car-repair-slm/
 ├── data/
-│   ├── eval_20_qa.json          # 20 Q&A pairs for evaluation (never used in training)
-│   └── car_repair_100_qa.json   # 100 Q&A pairs (10 categories x 10 each)
-├── notebooks/
-│   └── 01_baseline_eval.py      # Baseline evaluation script (Kaggle notebook)
-├── scripts/
-│   └── generate_answers.py      # Script to generate model answers
+│   ├── car_repair_100_qa.json
+│   └── eval_20_qa.json
 ├── docs/
-│   └── PHASES.md                # Detailed phase breakdown
+│   └── PHASES.md
+├── scripts/
+├── src/
+│   ├── config.py
+│   ├── evaluator.py
+│   ├── main.py
+│   └── model_loader.py
 ├── .gitignore
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ## Categories (10)
