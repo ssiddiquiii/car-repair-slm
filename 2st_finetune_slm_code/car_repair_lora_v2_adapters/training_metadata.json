@@ -1,0 +1,28 @@
+{
+  "base_model": "unsloth/gemma-4-E2B-it",
+  "framework": "unsloth",
+  "training": {
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "epochs": 5,
+    "effective_batch_size": 16,
+    "learning_rate": 0.0002,
+    "max_seq_length": 512,
+    "precision": "fp16"
+  },
+  "results": {
+    "final_train_loss_avg": 5.6562,
+    "final_step_train_loss": 2.931,
+    "final_eval_loss": 2.233,
+    "total_steps": 32,
+    "train_runtime_min": 5.5
+  },
+  "data": {
+    "train_size": 252,
+    "val_size": 29,
+    "total_source_samples": 281,
+    "source": "ssiddiquii/car-repair-hq"
+  },
+  "notes": "First training run. Dataset size (281) is at low end of recommended range (500-5000). Post-eval will determine if retrain with more epochs is needed."
+}

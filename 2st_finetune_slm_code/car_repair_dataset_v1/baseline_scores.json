@@ -1,0 +1,260 @@
+{
+  "model": "google/gemma-4-E2B-it",
+  "judge": "groq/llama-3.1-8b-instant",
+  "n_samples": 30,
+  "threshold": 0.7,
+  "metrics": {
+    "AnswerRelevancyMetric": {
+      "avg_score": 0.9156,
+      "pass_rate": 0.9,
+      "n": 30
+    },
+    "Correctness": {
+      "avg_score": 0.39,
+      "pass_rate": 0.1667,
+      "n": 30
+    }
+  },
+  "per_case": [
+    {
+      "idx": 0,
+      "question": "What could be causing a P0171 code with rough idle when cold, along with a 10% long-term fuel trim a",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "Correctness": 0.6
+      }
+    },
+    {
+      "idx": 1,
+      "question": "How would you approach diagnosing a vehicle that has a parasitic draw on the battery, specifically r",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "Correctness": 0.7
+      }
+    },
+    {
+      "idx": 2,
+      "question": "What steps would you take to diagnose a vehicle with a P0190 code, indicating a fuel pressure sensor",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "Correctness": 0.8
+      }
+    },
+    {
+      "idx": 3,
+      "question": "How would you troubleshoot a vehicle experiencing a stoichiometric imbalance, indicated by a P0133 c",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "Correctness": 0.4
+      }
+    },
+    {
+      "idx": 4,
+      "question": "What diagnostic approach would you use for a vehicle with a rough engine idle, accompanied by a P030",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "Correctness": 0.7
+      }
+    },
+    {
+      "idx": 5,
+      "question": "P0171 code with rough idle when cold, and a 10% long-term fuel trim at cruising speeds",
+      "scores": {
+        "AnswerRelevancyMetric": 0.909,
+        "Correctness": 0.4
+      }
+    },
+    {
+      "idx": 6,
+      "question": "Intermittent P0190 code with erratic fuel gauge readings and a 5% variation in short-term fuel trim",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "Correctness": 0.2
+      }
+    },
+    {
+      "idx": 7,
+      "question": "Steady engine stall after refueling, accompanied by a P0087 code and a significant drop in fuel pres",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "Correctness": 0.2
+      }
+    },
+    {
+      "idx": 8,
+      "question": "Random misfire codes (P0300-P0304) with a 5% increase in long-term fuel trim and a slight decrease i",
+      "scores": {
+        "AnswerRelevancyMetric": 0.944,
+        "Correctness": 0.7
+      }
+    },
+    {
+      "idx": 9,
+      "question": "P0193 code with a noticeable decrease in engine performance and a parasitic draw of 0.5 amps on the ",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "Correctness": 0.2
+      }
+    },
+    {
+      "idx": 10,
+      "question": "P0730 code with slipping between 2nd and 3rd gear, accompanied by a loud whining noise when accelera",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "Correctness": 0.2
+      }
+    },
+    {
+      "idx": 11,
+      "question": "Intermittent P0700 code with delayed engagement of reverse gear, accompanied by a clicking noise whe",
+      "scores": {
+        "AnswerRelevancyMetric": 0.909,
+        "Correctness": 0.2
+      }
+    },
+    {
+      "idx": 12,
+      "question": "P0817 code with erratic torque converter clutch engagement, accompanied by a shuddering sensation wh",
+      "scores": {
+        "AnswerRelevancyMetric": 0.913,
+        "Correctness": 0.4
+      }
+    },
+    {
+      "idx": 13,
+      "question": "P0720 code with intermittent overdrive gear engagement, accompanied by a buzzing noise when cruising",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "Correctness": 0.4
+      }
+    },
+    {
+      "idx": 14,
+      "question": "P0750 code with slipping between 1st and 2nd gear, accompanied by a low transmission fluid pressure ",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "Correctness": 0.6
+      }
+    },
+    {
+      "idx": 15,
+      "question": "P0638 code with intermittent loss of communication on the high-speed CAN bus when the vehicle is und",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "Correctness": 0.2
+      }
+    },
+    {
+      "idx": 16,
+      "question": "Random misfire codes (P0300-P0304) with a lean fuel trim condition and an IAT sensor reading 10\u00b0F hi",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "Correctness": 0.2
+      }
+    },
+    {
+      "idx": 17,
+      "question": "U0101 code indicating a lost communication with the TCM, accompanied by erratic gear shifting and a ",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "Correctness": 0.8
+      }
+    },
+    {
+      "idx": 18,
+      "question": "P0562 code with an erratic battery voltage reading that fluctuates between 10.5V and 12.5V, observed",
+      "scores": {
+        "AnswerRelevancyMetric": 0.923,
+        "Correctness": 0.4
+      }
+    },
+    {
+      "idx": 19,
+      "question": "C0270 code indicating a fault in the left rear wheel speed sensor circuit, accompanied by an ABS lig",
+      "scores": {
+        "AnswerRelevancyMetric": 0.913,
+        "Correctness": 0.2
+      }
+    },
+    {
+      "idx": 20,
+      "question": "P0128 code with erratic coolant temperature gauge readings and rough idle when warm, accompanied by ",
+      "scores": {
+        "AnswerRelevancyMetric": 0.944,
+        "Correctness": 0.2
+      }
+    },
+    {
+      "idx": 21,
+      "question": "Intermittent P0217 code with reports of overheating and a significant parasitic draw on the battery ",
+      "scores": {
+        "AnswerRelevancyMetric": 0.733,
+        "Correctness": 0.2
+      }
+    },
+    {
+      "idx": 22,
+      "question": "C1501 code with symptoms of intermittent overheating and coolant loss, accompanied by a fluctuating ",
+      "scores": {
+        "AnswerRelevancyMetric": 0.95,
+        "Correctness": 0.2
+      }
+    },
+    {
+      "idx": 23,
+      "question": "P0115 code with engine running rich, as indicated by a low oxygen sensor voltage reading, and a noti",
+      "scores": {
+        "AnswerRelevancyMetric": 0.588,
+        "Correctness": 0.2
+      }
+    },
+    {
+      "idx": 24,
+      "question": "C1251 code with symptoms of overheating at high speeds, accompanied by a loud whining noise from the",
+      "scores": {
+        "AnswerRelevancyMetric": 0.467,
+        "Correctness": 0.2
+      }
+    },
+    {
+      "idx": 25,
+      "question": "P0730 code with hesitant acceleration and slipping between gears when warm",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "Correctness": 0.4
+      }
+    },
+    {
+      "idx": 26,
+      "question": "A vehicle equipped with ABS exhibits a P0171 code with rough idle when cold, and the brake pedal fee",
+      "scores": {
+        "AnswerRelevancyMetric": 0.909,
+        "Correctness": 0.4
+      }
+    },
+    {
+      "idx": 27,
+      "question": "A vehicle with a hydro-boost braking system has a complaint of a low brake pedal and excessive brake",
+      "scores": {
+        "AnswerRelevancyMetric": 0.75,
+        "Correctness": 0.6
+      }
+    },
+    {
+      "idx": 28,
+      "question": "A vehicle equipped with electronic brakeforce distribution (EBD) exhibits a C1234 code with an illum",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "Correctness": 0.2
+      }
+    },
+    {
+      "idx": 29,
+      "question": "A vehicle with a regenerative braking system has a complaint of a pulsating brake pedal during light",
+      "scores": {
+        "AnswerRelevancyMetric": 0.615,
+        "Correctness": 0.6
+      }
+    }
+  ]
+}
