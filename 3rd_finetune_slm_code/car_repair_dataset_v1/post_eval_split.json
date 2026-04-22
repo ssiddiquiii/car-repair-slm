@@ -1,0 +1,170 @@
+[
+  {
+    "id": 86,
+    "category": "HVAC Diagnostics",
+    "question": "What diagnostic steps should be taken when a vehicle presents with a P0133 code, indicating a faulty oxygen sensor circuit low voltage, accompanied by a rich fuel mixture indication and decreased fuel efficiency?",
+    "answer": "A P0133 code indicates an issue with the oxygen sensor circuit, which is crucial for maintaining a stoichiometric air-fuel mixture. A rich fuel mixture and decreased fuel efficiency suggest the engine computer is not receiving accurate feedback from the oxygen sensor. Step 1: Understand the oxygen sensor's role in providing real-time feedback on the exhaust gas composition, allowing the engine computer to adjust fuel injection accordingly. Step 2: Inspect the oxygen sensor and its wiring for any signs of damage or corrosion. Step 3: Use a multimeter to measure the voltage at the oxygen sensor circuit to confirm the low voltage condition. Step 4: Check the heated circuit of the oxygen sensor, as a faulty heating element can cause inaccurate readings. Step 5: Consider replacing the oxygen sensor if it's found to be faulty. The why behind this diagnostic approach is to methodically inspect and test the oxygen sensor and its circuit, considering its critical role in fuel mixture control, to identify and rectify the cause of the low voltage condition."
+  },
+  {
+    "id": 70,
+    "category": "Cooling & Thermal",
+    "question": "P0116 code with slow engine warm-up times and a noticeable decrease in fuel efficiency, accompanied by a MIL illumination",
+    "answer": "The P0116 code indicates a faulty engine coolant temperature sensor, which can cause the engine to run rich due to the ECM's inability to properly calculate fuel trim. The slow engine warm-up times suggest the engine is operating in a cold mode for an extended period, which can decrease fuel efficiency. To diagnose, first verify the ECT sensor readings using a scan tool, comparing them to the specifications outlined in the repair manual. If the readings are inaccurate, inspect the sensor and its wiring for signs of damage or wear. Perform a resistance test on the sensor to ensure it is within specifications. If faulty, replace the sensor with a new one, then clear the MIL and monitor the engine's performance to ensure the issue is resolved."
+  },
+  {
+    "id": 291,
+    "category": "Cooling & Thermal",
+    "question": "P0117 code with overheating engine and lack of heat from the heater core",
+    "answer": "The P0117 code indicates a fault in the engine coolant temperature circuit, which could be due to a variety of factors including a faulty temperature sensor, wiring issue, or a problem with the coolant system itself. The lack of heat from the heater core suggests that there might be an issue with coolant flow or a blockage within the heater core. Start by inspecting the heater core and its hoses for any signs of leakage, blockage, or damage. Use a pressure test on the cooling system to identify any internal leaks. The ECM's reliance on accurate temperature data means that a faulty reading can lead to improper fuel trim adjustments, potentially causing the engine to run lean or rich, away from the stoichiometric ideal. This, combined with the lack of heat, points towards a significant issue within the cooling system that needs to be addressed. Check the coolant level and condition, ensuring it's at the recommended level and mixture. If necessary, flush the system and replace the coolant. Monitor the engine temperature and heater performance after repairs to confirm that both issues are resolved and the engine is operating efficiently."
+  },
+  {
+    "id": 205,
+    "category": "Engine Diagnostics",
+    "question": "A vehicle comes in with a complaint of intermittent stalling when coming to a stop, along with a P0638 code indicating a throttle actuator control system malfunction. What steps would you take to diagnose this issue?",
+    "answer": "To diagnose an intermittent stalling issue accompanied by a P0638 code, first understand the throttle actuator control system's role in managing the throttle valve's opening based on driver input and engine conditions. Step 1: Review the vehicle's history and any previously stored codes to look for patterns or recurring issues. Step 2: Monitor the throttle position sensor and pedal position sensor with a scan tool to ensure they are providing accurate data to the engine control module. Step 3: Perform a throttle body cleaning and inspection to ensure it is free from debris and functioning correctly. Step 4: Check the wiring and connections of the throttle actuator control system for any signs of damage or corrosion. Step 5: Consider performing a system reset or relearn procedure for the throttle actuator control system to recalibrate its operation."
+  },
+  {
+    "id": 303,
+    "category": "HVAC Diagnostics",
+    "question": "How would you diagnose an intermittent no-cool condition on a 2018 Ford F-150 with a dual-zone climate control system, where the symptom only occurs on the driver's side and is accompanied by a clicking noise from the dashboard?",
+    "answer": "To diagnose the intermittent no-cool condition, start by understanding the dual-zone climate control system operates by using blend doors and actuators to control air temperature. The clicking noise from the dashboard could indicate an issue with the blend door actuator or its control circuit. Step 1: Use a scan tool to check for any trouble codes related to the climate control system, focusing on codes that might indicate a problem with the blend door actuator or its circuit. Step 2: Perform a visual inspection of the blend door actuator and its linkage to ensure proper movement and connection. Step 3: Check the wiring and connections to the blend door actuator for any signs of damage or corrosion. Step 4: If the actuator seems to be functioning, use a multimeter to check the voltage supply to the actuator when the clicking noise is present. Step 5: If the issue persists, consider replacing the blend door actuator as it might be faulty, causing the intermittent no-cool condition."
+  },
+  {
+    "id": 112,
+    "category": "Suspension & Steering",
+    "question": "What could be causing a P0533 code with erratic power steering assist when making sharp turns, accompanied by a clicking noise from the steering column?",
+    "answer": "To diagnose this issue, first understand that the P0533 code indicates a problem with the power steering pressure sensor. The erratic power steering assist and clicking noise suggest a potential issue with the steering column or the power steering control module. Begin by checking the power steering fluid level and condition, as low or dirty fluid can cause the power steering pump to malfunction. Next, inspect the steering column for any signs of wear or damage, paying particular attention to the clockspring and the steering column electrical connectors. Use a scan tool to monitor the power steering pressure sensor voltage and compare it to the specified range. If the voltage is out of range, replace the power steering pressure sensor. If the voltage is within range, use a multimeter to check the resistance of the steering column electrical connectors and the clockspring. If any of these components are faulty, replace them as needed. Finally, clear the P0533 code and test the vehicle to ensure the issue is resolved."
+  },
+  {
+    "id": 34,
+    "category": "Engine Diagnostics",
+    "question": "A vehicle with a 2.0L turbocharged engine is experiencing a P0190 code, along with a noticeable decrease in power output, what steps should be taken to diagnose the issue?",
+    "answer": "The P0190 code indicates a fault in the fuel pressure sensor circuit. To diagnose, first, understand that the fuel pressure sensor provides critical data to the engine control module (ECM) for fuel injection timing and quantity. Begin by checking the fuel pressure sensor and its wiring for any signs of damage or corrosion. Next, use a scan tool to monitor the fuel pressure sensor's voltage output to verify it is within the specified range. Then, perform a fuel pressure test to verify the fuel system is operating within specifications. If the fuel pressure is low, check for any blockages in the fuel filter or fuel lines, or inspect the fuel pump for proper operation. Finally, check for any software updates for the ECM, as a faulty fuel pressure sensor can sometimes be caused by an outdated calibration."
+  },
+  {
+    "id": 173,
+    "category": "Fuel Delivery Systems",
+    "question": "Intermittent P0190 code with fluctuating fuel gauge readings and a noticeable decrease in engine performance under heavy load",
+    "answer": "The P0190 code signifies a fuel pressure sensor circuit malfunction. The fluctuating fuel gauge readings and decrease in engine performance under heavy load suggest that the engine control module (ECM) is not receiving accurate fuel pressure data, leading to incorrect fuel injection calculations. This could be due to a faulty fuel pressure sensor, wiring issues, or a corroded connector. Start by inspecting the fuel pressure sensor and its wiring for any signs of damage or corrosion. Check the voltage supply to the sensor and ensure it matches the manufacturer's specifications. If the sensor and wiring appear to be in good condition, use a scan tool to monitor the fuel pressure sensor data and compare it to the expected values. If the data is inconsistent, replace the fuel pressure sensor. Additionally, check for any technical service bulletins (TSBs) related to the fuel pressure sensor or its circuitry for the specific vehicle make and model."
+  },
+  {
+    "id": 260,
+    "category": "Exhaust Emissions",
+    "question": "Failed emissions test due to high levels of hydrocarbons (HC) and carbon monoxide (CO) in the exhaust, coupled with a rough engine idle",
+    "answer": "High levels of HC and CO in the exhaust indicate that the engine is running rich, potentially due to a malfunctioning fuel system component or an issue with the ignition system. The rough engine idle suggests an imbalance in the air-fuel mixture or a ignition timing issue. Step 1: Check the ignition system, including the spark plugs, spark plug wires, and ignition coil, for any signs of wear or malfunction. Step 2: Inspect the fuel system, including the fuel injectors, fuel pressure regulator, and fuel filter, for any signs of clogging or malfunction. Step 3: Monitor the oxygen sensor feedback to determine if it is providing accurate data to the ECM for fuel trim adjustments. Step 4: Perform a compression test to rule out any internal engine issues that could be contributing to the high emissions levels."
+  },
+  {
+    "id": 143,
+    "category": "Suspension & Steering",
+    "question": "How would you diagnose a clicking or clunking noise from the front suspension when driving over bumps, accompanied by a slight vibration through the steering column?",
+    "answer": "Begin by understanding the principles of suspension geometry and how components like control arms, ball joints, and tie rods interact. The clicking or clunking noise suggests play or movement in one of these components. Inspect the front suspension for any signs of wear or damage, focusing on bushings, ball joints, and control arm mounts. Use a pry bar to gently test for play in the suspension components while the vehicle is on a lift. Consider the concept of preload and how it affects suspension movement. If play is found, determine the source and consider replacement of the offending part. Additionally, inspect the steering column for any looseness or play, as this could contribute to the vibration felt through the steering wheel. Apply the principle of steering axis inclination to understand how this might affect the situation."
+  },
+  {
+    "id": 245,
+    "category": "Engine Diagnostics",
+    "question": "What steps should be taken to diagnose a P0401 code on a 2012 Honda Civic with a 1.8L engine that is causing the engine to run rough?",
+    "answer": "A P0401 code indicates a malfunction in the secondary air injection system. Step 1: Understand that the secondary air injection system is designed to reduce emissions by injecting air into the exhaust system during cold engine operation. Step 2: Inspect the air injection system for any blockages or restrictions in the air filter, air pump, or air injection valve that could prevent air from being injected into the exhaust system. Step 3: Monitor the air pump relay and air injection valve circuit using a multimeter to ensure they are functioning properly. Step 4: Check the exhaust system for any leaks or blockages that could prevent the air injection system from functioning properly. Step 5: Use a scan tool to monitor the air injection system's operation and ensure it is functioning within the manufacturer's specifications."
+  },
+  {
+    "id": 132,
+    "category": "Exhaust Emissions",
+    "question": "P0420 code with decreased fuel efficiency and noticeable exhaust smell",
+    "answer": "First, understand the P0420 code indicates a catalyst efficiency below threshold. To diagnose, start by checking fuel trim data to identify any lean or rich conditions that could be affecting catalyst efficiency. Next, inspect the exhaust system for leaks or damage, as this could be causing the noticeable smell. Then, use a scan tool to monitor catalyst temperature and converter efficiency during a test drive. If efficiency remains low, inspect the catalyst for physical damage or contamination. Finally, consider performing a fuel system cleaning and checking for any vacuum leaks that could be causing the decreased fuel efficiency."
+  },
+  {
+    "id": 44,
+    "category": "Engine Diagnostics",
+    "question": "What is the diagnostic process for a vehicle exhibiting a P0300 random cylinder misfire code, and how does ignition timing relate to this issue?",
+    "answer": "A P0300 code indicates a random cylinder misfire, meaning the ECM has detected misfires but can't identify which specific cylinder is the problem. The 'why' could involve ignition timing issues, faulty spark plugs, or low fuel pressure. The 'how' to diagnose includes: 1) checking the ignition timing to ensure it's within specifications, as incorrect timing can lead to misfires, 2) using a spark tester to verify spark presence and quality at each cylinder, and 3) monitoring live data with a scan tool to observe the misfire counter and see if any pattern emerges. Adjusting ignition timing or replacing spark plugs might be necessary based on findings."
+  },
+  {
+    "id": 289,
+    "category": "Cooling & Thermal",
+    "question": "C1255 code with low coolant level warning and excessive engine oil consumption",
+    "answer": "The C1255 code is related to the internal engine oil leakage into the cooling system, which can lead to a low coolant level and potentially cause the engine to consume more oil due to the compromised head gasket or intake manifold gasket. Begin by performing a thorough visual inspection for any external signs of leakage around the engine. Use a dye test or a leak-down test to identify the source of the internal leak. The presence of engine oil in the coolant can lead to the formation of a milky substance in the coolant reservoir and potentially clog the cooling system, including the radiator and coolant passages. This can cause the engine to run hot, triggering fuel trim adjustments by the ECM in an attempt to protect the engine, resulting in inefficient combustion and potentially a decrease in engine performance. Repairing the leak is crucial; this may involve replacing the head gasket, intake manifold gasket, or other affected components. After the repair, flush the cooling system thoroughly to remove any contaminants and refill with the recommended coolant mixture to prevent further issues."
+  },
+  {
+    "id": 150,
+    "category": "Cooling & Thermal",
+    "question": "C1001 code with coolant leak from the water pump, and decreased engine performance",
+    "answer": "The C1001 code indicates a problem with the water pump. However, the coolant leak and decreased engine performance suggest a more complex issue. To diagnose, start by inspecting the water pump and surrounding components for any signs of damage or corrosion. Check the water pump seal for any signs of wear or deterioration, and consider replacing the water pump if necessary. Next, use a pressure test to check for any other leaks in the cooling system, and inspect the radiator and hoses for any signs of damage or corrosion. The decreased engine performance could be due to a variety of factors, including low coolant level, faulty thermostat, or issues with the fuel system. Use a scan tool to monitor engine performance and coolant temperature while the engine is running, looking for any patterns or correlations that could indicate the root cause of the problem. Consider performing a fuel trim test to check for any issues with the fuel system, and check the ignition system for any signs of wear or deterioration. Finally, check the engine's vacuum system for any signs of leaks or damage, as a vacuum leak could be contributing to the decreased engine performance."
+  },
+  {
+    "id": 142,
+    "category": "Suspension & Steering",
+    "question": "What could cause a vehicle to pull to the left with a P0533 code and a vibration felt through the steering wheel at speeds above 60 mph?",
+    "answer": "First, understand that the P0533 code relates to a vehicle speed sensor malfunction. To diagnose, start by checking the vehicle speed sensor for any signs of damage or corrosion, and ensure proper wiring and connection to the ECM. Next, inspect the steering and suspension systems for any signs of wear, paying particular attention to the left side. Consider the principle of caster and camber in relation to vehicle pull. If the vehicle speed sensor is functioning correctly, proceed to check the steering gear and rack for proper alignment and function, considering factors such as bellcrank and sector shaft wear. Lastly, perform a road test to verify the vibration is not related to a tire imbalance or uneven wear, which could be a symptom of a larger suspension or steering issue."
+  },
+  {
+    "id": 78,
+    "category": "Electrical & Canbus",
+    "question": "U1308 code with a 0.5V drop in battery voltage during cranking, resulting in a no-start condition",
+    "answer": "The U1308 code indicates a problem with the vehicle's electrical system, specifically a voltage drop during cranking. To diagnose, first understand that a healthy battery should have a voltage reading of around 12.6V when fully charged. A 0.5V drop during cranking is excessive and indicates a high resistance in the starting circuit. Start by checking the battery terminals and cables for any signs of corrosion or damage, as a poor connection can cause a voltage drop. Next, use a multimeter to measure the voltage drop across the starter motor and solenoid to determine where the resistance is located. If the problem persists, try replacing the starter motor or solenoid to resolve the issue."
+  },
+  {
+    "id": 46,
+    "category": "Engine Diagnostics",
+    "question": "What steps are involved in diagnosing a vehicle with a P0133 code indicating a low voltage reading from the oxygen sensor, and how does this relate to fuel trim adjustments?",
+    "answer": "A P0133 code indicates the oxygen sensor is reporting a low voltage, which could mean the sensor is faulty or there's an issue with the sensor circuit. The 'why' could be due to a contaminated or aged oxygen sensor, or wiring issues. The 'how' to diagnose involves: 1) understanding that the oxygen sensor plays a critical role in fuel trim adjustments by providing feedback to the ECM on the exhaust gas composition, allowing the ECM to adjust fuel injection to maintain a stoichiometric air/fuel mixture, 2) using a scan tool to monitor the oxygen sensor's voltage output and comparing it to specifications, and 3) performing a visual inspection of the sensor and its wiring. Replacing the oxygen sensor might be necessary if it's found to be faulty, which should then be followed by clearing any trouble codes and testing the vehicle to ensure the repair was successful."
+  },
+  {
+    "id": 47,
+    "category": "Transmission Systems",
+    "question": "P0720 code with intermittent hesitation during 2-3 gear shift when warm, accompanied by a slight slip and flare",
+    "answer": "To diagnose this issue, first understand that the P0720 code indicates a problem with the output speed sensor. The hesitation and slip during 2-3 gear shift suggest a possible issue with the transmission's ability to engage gears properly. Step 1: Verify the output speed sensor's signal is within specifications using a scan tool. Step 2: Check for any signs of mechanical wear or damage on the sensor and its circuit. Step 3: Monitor fuel trim and look for any signs of a parasitic draw that could affect transmission performance. Step 4: Perform a transmission pan drop to inspect the fluid condition and look for any metal shavings, which could indicate internal mechanical damage. Step 5: If all else fails, consider replacing the output speed sensor or the transmission solenoid pack, depending on the root cause found."
+  },
+  {
+    "id": 247,
+    "category": "Transmission Systems",
+    "question": "P0717 code with intermittent slip and harsh 2-3 shift when warm, accompanied by a P0730 code indicating incorrect gear ratio",
+    "answer": "To diagnose, first understand the P0717 code indicates a fault in the transmission fluid temperature sensor, which could lead to incorrect shift points due to the transmission control module (TCM) relying on this data for shift strategy. The P0730 code points towards a problem with the gear ratio, possibly due to a mechanical issue within the transmission or a fault in the TCM's ability to correctly engage gears. Start by inspecting the transmission fluid temperature sensor and its circuit for any signs of damage or corrosion. Next, perform a scan tool test to monitor the transmission fluid temperature and compare it with the expected values. If the sensor or its circuit is faulty, replace it. If the issue persists, perform a mechanical inspection of the transmission, focusing on the 2-3 shift clutch pack and band for any signs of wear or damage. Finally, if all mechanical components are sound, consider reflashing the TCM with the latest software or replacing it if necessary."
+  },
+  {
+    "id": 75,
+    "category": "Cooling & Thermal",
+    "question": "P0118 code with fluctuating coolant temperature readings and a noticeable increase in fuel consumption",
+    "answer": "The P0118 code indicates a faulty engine coolant temperature sensor. However, the fluctuating temperature readings and increased fuel consumption suggest a more complex issue. Begin by monitoring the engine's fuel trim using a scan tool, looking for any significant deviations from the expected stoichiometric ratio. A rich or lean fuel condition could be causing the increased fuel consumption. Next, inspect the cooling system, paying particular attention to the thermostat, water pump, and radiator. A malfunctioning thermostat could be causing the engine to run at an incorrect temperature, leading to decreased fuel efficiency. Check the thermostat's operation by monitoring the coolant temperature during warm-up and under load. If the thermostat is functioning correctly, proceed to inspect the engine's ignition system, looking for any signs of wear or malfunction on the spark plugs, ignition coils, or fuel injectors. A malfunctioning ignition component could be causing the fluctuating temperature readings and increased fuel consumption. Finally, consider performing a scan tool test to monitor the engine's operating parameters, such as fuel trim, coolant temperature, and engine speed, to identify any correlations between these parameters and the problem."
+  },
+  {
+    "id": 83,
+    "category": "HVAC Diagnostics",
+    "question": "A vehicle presents with a P0123 code, indicating a faulty throttle position sensor (TPS) circuit high voltage. What diagnostic approach should be taken to address this issue?",
+    "answer": "To diagnose a P0123 code, first understand that the TPS provides critical feedback to the engine computer about throttle valve position, affecting fuel injection and ignition timing. A high voltage reading suggests an electrical issue. Step 1: Consult the wiring diagram to identify the TPS circuit and its components. Step 2: Perform a visual inspection of the TPS and its wiring for any signs of damage or wear. Step 3: Use a multimeter to measure the voltage at the TPS circuit to confirm the high voltage condition. Step 4: Check for any Technical Service Bulletins (TSBs) related to the TPS or its circuit. Step 5: Consider replacing the TPS if it's found to be faulty. The why behind this approach is to systematically eliminate potential causes, starting with the simplest and most direct explanations, to efficiently resolve the high voltage condition in the TPS circuit."
+  },
+  {
+    "id": 102,
+    "category": "Exhaust Emissions",
+    "question": "P0420 code with decreased fuel efficiency and a sulfur smell from the exhaust when cruising at a constant speed",
+    "answer": "To diagnose this issue, first understand that the P0420 code indicates a catalyst efficiency below threshold. This could be due to a malfunctioning catalytic converter or an imbalance in the air-fuel mixture. The sulfur smell suggests excessive fuel richness. Step 1: Monitor fuel trim to identify any deviations from stoichiometric. Step 2: Use a scan tool to check for any pending or stored codes related to fuel system or ignition system malfunctions. Step 3: Perform a visual inspection of the exhaust system for any signs of leaks or damage. Step 4: If no issues are found, consider replacing the catalytic converter."
+  },
+  {
+    "id": 145,
+    "category": "Suspension & Steering",
+    "question": "What steps would you take to diagnose a vehicle that exhibits a severe pull to one side under braking, with the pull becoming more pronounced as brake pedal pressure increases?",
+    "answer": "This condition suggests an issue related to brake bias or a suspension/steering component affecting the vehicle's stability under braking. Start by understanding the principles of brake balance and how it affects vehicle dynamics. Inspect the brake system for any signs of uneven wear or malfunction, including the brake pads, rotors, and calipers. Consider the concept of hydraulic pressure and how it affects brake application. Next, check the suspension and steering systems for any signs of wear or misalignment that could contribute to the pull, focusing on components such as the control arms, bushings, and steering gear. Apply the principle of roll center to understand how suspension movement might be impacting the vehicle's behavior under braking. If necessary, perform a brake system balance test to identify any issues with brake bias. Additionally, consider performing a suspension and steering system inspection to ensure all components are properly aligned and functioning as designed."
+  },
+  {
+    "id": 156,
+    "category": "Fuel Delivery Systems",
+    "question": "P0193 code with a 5% decrease in engine power output, observed during high-altitude driving",
+    "answer": "The P0193 code indicates a fuel pressure sensor circuit high input. The decrease in engine power output during high-altitude driving suggests that the engine is not adapting correctly to the lower atmospheric pressure, potentially due to a malfunctioning fuel pressure sensor. To diagnose, first understand that the fuel pressure sensor plays a critical role in the engine's ability to adjust fuel injection based on operating conditions. Step 1: Verify the fuel pressure sensor's voltage output is within the specified range, especially under the conditions that trigger the code. Step 2: Check the sensor's calibration and ensure it is correctly adjusted for the vehicle's altitude. Step 3: Inspect the fuel system for any signs of leaks or restrictions that could affect fuel pressure and thus trigger the P0193 code. Step 4: Monitor the engine's performance and fuel trim values during high-altitude driving to identify if the issue is related to the fuel system's ability to maintain a stoichiometric air-fuel mixture under varying atmospheric conditions."
+  },
+  {
+    "id": 171,
+    "category": "Exhaust Emissions",
+    "question": "Steady decrease in engine performance with a P2197 code indicating a fuel trim malfunction",
+    "answer": "Understanding that a P2197 code signifies a fuel trim malfunction, indicating the engine control module (ECM) has reached its fuel trim adjustment limits. This could be due to a variety of factors including a faulty oxygen sensor, a vacuum leak, or a clogged fuel injector. To diagnose, start by checking fuel system integrity, looking for any signs of leaks or blockages. Next, inspect the oxygen sensors for proper function, as a faulty sensor can prevent the ECM from making accurate fuel adjustments. Use a scan tool to monitor fuel trim levels, looking for any signs of rich or lean running conditions. If a vacuum leak is suspected, perform a smoke test to identify any leaks in the intake system. Finally, consider performing a compression test and a leak-down test to identify any internal engine issues that could be contributing to the fuel trim malfunction. Address the underlying cause before clearing the code to prevent it from returning."
+  },
+  {
+    "id": 43,
+    "category": "Engine Diagnostics",
+    "question": "How would you approach diagnosing a vehicle with a parasitic draw that's causing the battery to drain overnight, and what tools would you use?",
+    "answer": "Diagnosing a parasitic draw involves understanding that it's an electrical current draw that occurs when the ignition is turned off. The 'why' could be due to a faulty module, relay, or wiring issue. The 'how' involves: 1) using a multimeter to measure the current draw on the battery with the ignition off, 2) disconnecting fuses one by one to isolate which circuit is causing the draw, and 3) using a scan tool to check for any trouble codes that might indicate a malfunctioning module. It's also important to check the vehicle's wiring diagram to understand which components are on the same circuit, helping to narrow down the potential causes."
+  },
+  {
+    "id": 88,
+    "category": "Transmission Systems",
+    "question": "Harsh 1-2 shift with P0817 code, noted only during light throttle application",
+    "answer": "The P0817 code points to a problem with the transmission range sensor circuit. However, the symptom of a harsh 1-2 shift during light throttle application suggests a potential issue with the electronic controls or the hydraulic system. Start by checking the wiring and connectors of the transmission range sensor for any signs of damage or corrosion. Next, use a multimeter to verify the sensor's voltage output against the manufacturer's specifications. If the sensor and its circuit are intact, inspect the throttle position sensor (TPS) for proper calibration and function, as it directly influences transmission shift points. Then, monitor the transmission's shift solenoids and pressure control solenoids for proper operation using a scan tool, focusing on their ability to regulate line pressure during shifts. If the problem persists, consider a transmission control module (TCM) software update or replacement, as it may be malfunctioning and causing the harsh shift."
+  }
+]
